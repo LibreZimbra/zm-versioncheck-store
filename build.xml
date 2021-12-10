@@ -1,5 +1,5 @@
 <project name="zm-versioncheck-store" default="deploy">
-  <import file="../zm-zcs/ant-global.xml"/>
+  <import file="ant-global.xml"/>
   <!-- Properties -->
   <property name="ext.name" value="zimbraadminversioncheck"/>
   <property name="extension.dist.dir" location="${dist.lib.ext.dir}/${ext.name}"/>
